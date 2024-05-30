@@ -1,8 +1,6 @@
 import images from "../../constants/images";
 import SubHeading from "../../components/SubHeading/SubHeading";
 
-import LazyLoad from "react-lazy-load";
-
 import "./header.css";
 
 const Header = () => {
@@ -22,9 +20,7 @@ const Header = () => {
       </div>
 
       <div className="app__wrapper_img">
-        <LazyLoad>
           <img src={images.welcome} alt="header welcome" />
-        </LazyLoad>
       </div>
     </div>
   );
