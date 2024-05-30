@@ -54,9 +54,8 @@ const Gallery = () => {
               className="app__gallery-images_card flex__center"
               key={`gallery_images-${index + 1}`}
             >
-              <LazyLoad>
-                <img src={image} alt={`${image} image`} />
-              </LazyLoad>
+              <img src={image} alt={`${image} image`} />
+
               <BsInstagram className="gallery__image-icon" />
             </div>
           ))}

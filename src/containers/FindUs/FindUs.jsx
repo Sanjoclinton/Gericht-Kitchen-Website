@@ -5,7 +5,7 @@ import "./findus.css";
 
 const FindUs = () => {
   return (
-    <div className="app__wrapper section__padding" id="contact">
+    <div className="app__wrapper section__padding" id="contacts">
       <div className="app__wrapper_info">
         <SubHeading title="Contact" />
         <h1 className="headtext__cormorant" style={{ margin: "1rem 0 3rem 0" }}>
